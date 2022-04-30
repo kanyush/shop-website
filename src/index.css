@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color5: #8C8C8C;
+  --color6: #CCCCCC;
+  --color9: #C94D3F;
+  --color11: #666666;
+  --header-top-bg: #020202;
+}
+
+body {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  border: 0;
+  cursor: pointer;
+  background: none;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 12px;
+}
